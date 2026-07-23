@@ -1,24 +1,73 @@
 aid: aculys
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aculys.png
 name: Aculys
-description: 'Aculys is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Aculys Pharma, Inc. is a Japanese clinical-stage biopharmaceutical company focused on
+  neurological and psychiatric diseases where there is high unmet medical need. The company
+  works to eliminate Japan's drug lag and drug loss by bringing innovative medicines already
+  approved in Western markets to Japanese patients as early as possible. Its lead product is
+  Spydia (diazepam nasal spray), Japan's first domestically developed intranasal anti-seizure
+  agent, approved in June 2025 and administrable outside medical facilities. Originally funded
+  by SoftBank Vision Fund (Series C, March 2025), Aculys was acquired by and became part of the
+  Viatris Group in October 2025. Aculys publishes no public developer program, API, or technical
+  documentation surface; this profile is maintained for network completeness and identity.
 url: https://raw.githubusercontent.com/api-evangelist/aculys/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - softbank-vision-fund
+x-acquired-by: viatris
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Health Tech
+- Pharmaceuticals
+- Biotech
+- Neurology
+- Japan
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aculys-domain-security.yml
+- type: Website
+  url: https://aculys.com/en/
+- type: Blog
+  url: https://aculys.com/en/news/
+- type: About
+  url: https://aculys.com/en/company/
+- type: Products
+  url: https://aculys.com/en/our-products/
+- type: PrivacyPolicy
+  url: https://aculys.com/en/privacy-policy/
+- type: TermsOfService
+  url: https://aculys.com/en/terms-and-conditions
+- type: SecurityPolicy
+  url: https://aculys.com/en/security-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aculys/about/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
